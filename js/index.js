@@ -126,6 +126,7 @@ $(function () {
     //contact email 복사하기
     let copyText = (text) => {
         navigator.clipboard.writeText(text);
+        copyText.textContent = text;
         alert("복사되었습니다.");
     };
 
@@ -134,4 +135,3 @@ $(function () {
         copyText("frontweb99@gmail.com");
     });
 });
-
