@@ -122,5 +122,16 @@ $(function () {
         $(this).css("color","#674f80");
         $(".cursor").css("color","#674f80");
     });
+
+    //contact email 복사하기
+    let copyText = (text) => {
+        navigator.clipboard.writeText(text);
+        alert("복사되었습니다.");
+    };
+
+    let emailClick=document.querySelector(".email");
+    emailClick.addEventListener("click",()=>{
+        copyText("frontweb99@gmail.com");
+    });
 });
 
