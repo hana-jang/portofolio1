@@ -25,14 +25,14 @@
     margin-left:-40px;
 }
 .opendoor .opendoor_inside{
-    width:348px;
-    height:460px;
+    width:21rem;
+    height:28rem;
     background:url("../img/door_inside.png");
     perspective: 300px;
 }
 .opendoor .opendoor_outside{
-    width:353px;
-    height:463px;
+    width:22rem;
+    height:29rem;
     background:url("../img/door_outside.png");
     position:absolute;
     top:24.8%;
@@ -150,14 +150,14 @@
     margin-left:-40px;
 }
 .closedoor .closedoor_inside{
-    width:348px;
-    height:460px;
+    width:21rem;
+    height:28rem;
     background:url("../img/door_inside.png");
     perspective: 300px;
 }
 .closedoor .closedoor_outside{
-    width:353px;
-    height:463px;
+    width:22rem;
+    height:29rem;
     background:url("../img/door_outside.png");
     position:absolute;
     top:24.8%;
